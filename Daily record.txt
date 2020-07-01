@@ -1,10 +1,14 @@
 2020/06/28
 整理cgroups相关资料，并进行实验：
-1）进行cpu限制的实验
-2）进行memory限制的实验
+1）进行cpu限制的实验（cgroup-bin）
+2）进行memory限制的实验（cgroup-bin）
 
 2020/06/29
 学习systemd与cgroups的关系，并通过使用systemd来使用cgroups。
 
-2020/6/30
+2020/06/30
 理解子系统、层级、控制组群和任务的关系
+
+2020/07/01
+通过cgroup文件进行CPU使用时间（使用率）限制、CPU资源绑定、内存资源限制
+学习常用cgroups参数
