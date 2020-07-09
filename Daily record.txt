@@ -35,3 +35,11 @@ cgroup--blkio子系统测试-1（throttle测试)
 整理cgroups资料并进行组内分享
 学习python基础
 
+2020/07/09
+学习python基础：
+Python3 基本数据类型
+Python3 解释器
+Python3 注释
+Python3 运算符
+Python3 列表
+
