@@ -43,3 +43,11 @@ Python3 注释
 Python3 运算符
 Python3 列表
 
+
+2020/07/10
+学习python基础：
+Python3 元组
+Python3 字典
+Python3 集合
+Python3 迭代器与生成器
+Python3 函数
