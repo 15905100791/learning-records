@@ -241,6 +241,7 @@ f.close()
 # seek(x,1) ： 表示从当前位置往后移动x个字符
 # seek(-x,2)：表示从文件的结尾往前移动x个字符
 # from_what 值为默认为0，即文件开头。下面给出一个完整的例子：
+print('=================')
 f = open('/tmp/foo.txt', 'rb+')
 f.write(b'0123456789abcdef')
 print(f.seek(5))         # 移动到文件的第六个字节
@@ -294,6 +295,7 @@ data1 = {'a': [1, 2.0, 3, 4+6j],
 
 selfref_list = [1, 2, 3]
 selfref_list.append(selfref_list)
+print(selfref_list)
 
 output = open('data.pkl', 'wb')
 
