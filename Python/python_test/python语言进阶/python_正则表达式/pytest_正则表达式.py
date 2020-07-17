@@ -432,6 +432,15 @@ rub[ye]	匹配 "ruby" 或 "rube"
 
 
 
+import re
+pattern = re.compile(r'(\d+)(.*)(\d+)',re.M|re.I)                    # 用于匹配至少一个数字
+m = pattern.search('one12t22wothree34four',3,10)        # 查找头部，没有匹配
+print( m )
+print(m.group(2))
+
+
+
+
 
 
 
